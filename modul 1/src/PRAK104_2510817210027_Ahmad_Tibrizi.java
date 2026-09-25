@@ -44,5 +44,4 @@ public class PRAK104_2510817210027_Ahmad_Tibrizi {
             System.out.println("Input tidak valid! Harus memasukkan 3 pilihan urutan dari huruf B (Batu), G (Gunting), atau K (Kertas).\n");
         }
     }
-
 }

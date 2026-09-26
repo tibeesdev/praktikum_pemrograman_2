@@ -5,7 +5,6 @@ public class PRAK103_2510817210027_Ahmad_Tibrizi {
         Scanner input = new Scanner(System.in);
         int n = validasiInput(input, "Masukkan N angka: ");
         int angkaAwal = validasiInput(input, "Masukkan angka awal: ");
-
         int count = 0;
 
         if (n>0){
@@ -21,8 +20,6 @@ public class PRAK103_2510817210027_Ahmad_Tibrizi {
                 angkaAwal++;
             }while (count<n);
         }
-
-
     }
 
     public static int validasiInput(Scanner input, String judul){

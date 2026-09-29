@@ -4,7 +4,7 @@ public class PRAK102_2510817210027_Ahmad_Tibrizi {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         int i = 0;
-        int batas = 10;
+        int batas = 9;
         int angkaAwal = validasiInput(input);
 
         while (i <= batas){

@@ -24,7 +24,7 @@ public class Kopi {
     }
 
     public double getPajak(){
-        double diskon = (harga * 11) / 100;
-        return diskon;
+        double pajak = (harga * 11) / 100;
+        return pajak;
     }
 }

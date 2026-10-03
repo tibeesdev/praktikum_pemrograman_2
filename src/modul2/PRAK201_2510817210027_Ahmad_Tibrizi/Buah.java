@@ -35,7 +35,7 @@ public class Buah {
                         "Jumlah Beli: %.1f kg\n" +
                         "Harga Sebelum Diskon: Rp%.2f\n" +
                         "Total Diskon: Rp%.2f\n" +
-                        "Harga Setelah Diskon: Rp%.2f\n\n\n",
+                        "Harga Setelah Diskon: Rp%.2f\n\n",
                 this.nama, this.berat, this.harga,
                 this. jumlah_beli, this.total, this.diskon,
                 (this.total - this.diskon)

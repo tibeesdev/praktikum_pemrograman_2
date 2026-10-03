@@ -1,3 +1,5 @@
+package modul1;
+
 import java.util.Scanner;
 
 public class PRAK102_2510817210027_Ahmad_Tibrizi {

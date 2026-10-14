@@ -1,6 +1,6 @@
 package modul3.soal2;
 
-import java.util.HashMap;
+
 
 public class Negara {
     private String nama;
@@ -9,7 +9,7 @@ public class Negara {
     private Integer tanggal_kemerdekaan;
     private String bulan_kemerdekaan;
     private Integer tahun_kemerdekaan;
-    HashMap<Integer, String> hashmapBulan = new HashMap<Integer, String>();
+
     Negara (String nama, String jenis_kepemimpinan, String nama_pemimpin, Integer tanggal_kemerdekaan, String bulan_kemerdekaan, Integer tahun_kemerdekaan){
         this.nama = nama;
         this.jenis_kepemimpinan = jenis_kepemimpinan;

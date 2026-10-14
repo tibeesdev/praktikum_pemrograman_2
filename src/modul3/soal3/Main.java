@@ -62,13 +62,14 @@ public class Main {
         String nim = validasi_nim();
         Mahasiswa mahasiswa = new Mahasiswa(nama, nim);
         list_mahasiswa.add(mahasiswa);
+        System.out.println("Mahasiswa "+ nama + " ditambahkan.");
     }
 
     public static void hapusMahasiswa(String nim){
         if (list_mahasiswa.removeIf(mahasiswa -> mahasiswa.getNim().equals(nim))){
-            System.out.print("Mahasiswa dengan NIM" + nim + "dihapus\n");
+            System.out.print("Mahasiswa dengan NIM " + nim + " dihapus\n");
         }else {
-            System.out.print("Mahasiswa dengan NIM" + nim + "tidak dihapus!\n");
+            System.out.print("Mahasiswa dengan NIM " + nim + " tidak dihapus!\n");
         }
     }
 

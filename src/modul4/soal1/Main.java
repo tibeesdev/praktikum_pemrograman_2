@@ -20,5 +20,4 @@ public class Main {
             System.out.println(pesan + " tidak boleh kosong");
         }
     }
-
 }

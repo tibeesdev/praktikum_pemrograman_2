@@ -1,20 +1,17 @@
 package modul4.soal2;
-
 import java.util.Scanner;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
-
     public static void main(String[] args){
-        System.out.println("Pilih jenis hewan yang ingin diinputkan: ");
-        System.out.println("1 = Kucing");
-        System.out.println("2 = Anjing");
-        System.out.print("Masukkan Pilihan: ");
         menu();
-
     }
     public static int menu(){
         while (true){
+            System.out.println("Pilih jenis hewan yang ingin diinputkan: ");
+            System.out.println("1 = Kucing");
+            System.out.println("2 = Anjing");
+            System.out.print("Masukkan Pilihan: ");
             try {
                 Integer input = Integer.parseInt(scanner.nextLine().trim());
                 switch (input){
@@ -27,12 +24,10 @@ public class Main {
                     default:
                         break;
                 }
-
             } catch (NumberFormatException e) {
                 System.out.println("Input harus berupa angka!");
             }
         }
-
     }
     private static String validasi_string(String pesan){
         while (true){
@@ -61,7 +56,6 @@ public class Main {
             } else {
                 return input;
             }
-
         }
     }
     static void buatKucing(){

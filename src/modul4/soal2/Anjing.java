@@ -5,7 +5,6 @@ import modul4.soal1.HewanPeliharaan;
 public class Anjing extends HewanPeliharaan {
     private String warnaBulu;
     private String[] kemampuan;
-
     Anjing(String nama, String ras, String warnaBulu, String[] kemampuan){
         super(nama, ras);
         this.warnaBulu = warnaBulu;

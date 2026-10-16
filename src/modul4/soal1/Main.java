@@ -9,7 +9,6 @@ public class Main {
         HewanPeliharaan hewanPeliharaan = new HewanPeliharaan(nama, ras);
         hewanPeliharaan.display();
     }
-
     private static String validasi_string(String pesan){
         while (true){
             System.out.print(pesan + ": ");

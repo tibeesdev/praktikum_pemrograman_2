@@ -4,7 +4,6 @@ import modul4.soal1.HewanPeliharaan;
 
 public class Kucing extends HewanPeliharaan {
     private String warnaBulu;
-
     Kucing(String nama, String ras, String warnaBulu){
         super(nama, ras);
         this.warnaBulu = warnaBulu;

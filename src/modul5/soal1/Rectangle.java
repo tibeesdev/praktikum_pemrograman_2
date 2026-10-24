@@ -1,21 +1,23 @@
 package modul5.soal1;
 
+import javax.swing.plaf.SeparatorUI;
+
 public class Rectangle extends Shape{
     private double length;
     private double width;
 
-    public Rectangle(Double length, double width){
-
+    public Rectangle(Double l, double w){
+        super("Rectangle");
+        this.length = l;
+        this.width = w;
     }
-
+    @Override
     public double area(){
-
+        return length*width;
     }
 
     @Override
     public String toString() {
-        return "Rectangle{" +
-                "width=" + width +
-                '}';
+        return super.toString() + " of length " + length + " and width " + width;
     }
 }

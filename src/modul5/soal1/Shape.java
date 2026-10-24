@@ -1,8 +1,15 @@
 package modul5.soal1;
 
 abstract class Shape {
-    private String shapeName;
+    protected String shapeName;
+    public Shape(String shapeName){
+        this.shapeName = shapeName;
+    }
 
-    abstract double area();
-    abstract String tostring();
+    public abstract double area();
+    public String tostring(){
+        return shapeName;
+    }
+
+
 }

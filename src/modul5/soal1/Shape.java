@@ -10,6 +10,4 @@ abstract class Shape {
     public String tostring(){
         return shapeName;
     }
-
-
 }

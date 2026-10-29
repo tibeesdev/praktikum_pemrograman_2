@@ -1,5 +1,6 @@
 package modul5.soal1;
 
+
 public class Cylinder extends  Shape{
     private double radius;
     private double height;
@@ -12,7 +13,7 @@ public class Cylinder extends  Shape{
 
     @Override
     public double area(){
-        return Math.PI*(radius*radius) * height;
+        return (Math.PI*(radius*radius) * height);
     }
 
     @Override

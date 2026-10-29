@@ -1,7 +1,4 @@
 package modul5.soal1;
-
-import javax.swing.plaf.SeparatorUI;
-
 public class Rectangle extends Shape{
     private double length;
     private double width;
